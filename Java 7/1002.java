@@ -1,6 +1,6 @@
 //Nome: Área do Círculo
-//Resultado: Presentation error
-//Data: 01/05/16 23:48:53
+//Resultado: Accepted
+//Data: 01/05/16 23:50:20
 //Linguagem: Java 7
 import java.io.IOException;
 import java.util.Scanner;
@@ -17,6 +17,7 @@ public class Main {
         double d = sc.nextDouble();
         double r = d * d * 3.14159;    
         System.out.printf("A=%.4f", r, "/n");
+        System.out.println("");
     }
  
 }
