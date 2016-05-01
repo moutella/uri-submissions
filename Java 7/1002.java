@@ -1,9 +1,8 @@
 //Nome: Área do Círculo
 //Resultado: Compilation error
-//Data: 01/05/16 23:47:12
+//Data: 01/05/16 23:47:52
 //Linguagem: Java 7
 import java.io.IOException;
-import java.util.Scanner;
  
 /**
  * IMPORTANT: 
@@ -15,10 +14,9 @@ public class Main {
  
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
-        sc.useLocale(Locale.US);
         double d = sc.nextDouble();
-        double r = d * d * 3.14159;
-        System.out.printf("A=%.4f", r,"/n");
+        double r = d * d * 3.14159;    
+        System.out.printf("A=%.4f", r, "/n");
     }
  
 }
