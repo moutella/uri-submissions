@@ -1,9 +1,9 @@
 //Nome: Área do Círculo
-//Resultado: Compilation error
-//Data: 01/05/16 23:47:52
+//Resultado: Presentation error
+//Data: 01/05/16 23:48:53
 //Linguagem: Java 7
 import java.io.IOException;
- 
+import java.util.Scanner;
 /**
  * IMPORTANT: 
  *      O nome da classe deve ser "Main" para que a sua solução execute
