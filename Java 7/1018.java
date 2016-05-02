@@ -1,6 +1,6 @@
 //Nome: Cédulas
-//Resultado: Wrong answer (90%)
-//Data: 02/05/16 21:11:08
+//Resultado: Presentation error
+//Data: 02/05/16 21:13:58
 //Linguagem: Java 7
 import java.io.IOException;
 import java.util.Scanner;
@@ -15,8 +15,9 @@ public class Main {
  
     public static void main(String[] args) throws IOException {
             Scanner sc = new Scanner(System.in);
-        int qnt = sc.nextInt();
-        int qnt100 = 0,qnt50 =0,qnt20=0,qnt10=0,qnt5=0,qnt2=0,qnt1=0;
+            int qnt = sc.nextInt();
+            System.out.println(qnt);
+            int qnt100 = 0,qnt50 =0,qnt20=0,qnt10=0,qnt5=0,qnt2=0,qnt1=0;
             qnt100 = qnt/100;
             qnt -= qnt100*100;
             System.out.println(qnt100 + " nota(s) de R$100,00");
