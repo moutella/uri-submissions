@@ -1,6 +1,6 @@
 //Nome: Preenchimento de Vetor IV
-//Resultado: Wrong answer (20%)
-//Data: 03/05/16 20:01:23
+//Resultado: Accepted
+//Data: 03/05/16 20:02:37
 //Linguagem: Java 7
 import java.io.IOException;
 import java.util.Scanner;
@@ -47,7 +47,7 @@ public class Main {
             System.out.printf("impar[%d] = %d\n", p, impar[p]);
         }
         for(int p =0;p<parcont;p++){
-            System.out.printf("impar[%d] = %d\n", p, par[p]);
+            System.out.printf("par[%d] = %d\n", p, par[p]);
         }
    }
  
