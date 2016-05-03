@@ -1,6 +1,6 @@
 //Nome: Par ou Ímpar
-//Resultado: Presentation error
-//Data: 03/05/16 17:45:21
+//Resultado: Accepted
+//Data: 03/05/16 17:52:43
 //Linguagem: Java 7
 import java.io.IOException;
 import java.util.Scanner;
@@ -21,9 +21,9 @@ public class Main {
                     System.out.printf("ODD ");
                 }
             if (x > 0) {
-                System.out.printf("POSITIVE \n");
+                System.out.printf("POSITIVE\n");
             } else {
-                System.out.printf("NEGATIVE \n");
+                System.out.printf("NEGATIVE\n");
             }
             }
         }
