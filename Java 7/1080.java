@@ -1,6 +1,6 @@
 //Nome: Maior e Posição
-//Resultado: Compilation error
-//Data: 03/05/16 17:57:53
+//Resultado: Accepted
+//Data: 03/05/16 17:58:19
 //Linguagem: Java 7
 import java.io.IOException;
 import java.util.Scanner;
@@ -27,3 +27,4 @@ public class Main {
         System.out.println(pos);
     }
  
+}
