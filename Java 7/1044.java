@@ -1,9 +1,10 @@
 //Nome: Múltiplos
-//Resultado: Wrong answer (100%)
-//Data: 02/05/16 23:23:48
+//Resultado: Accepted
+//Data: 03/05/16 20:22:29
 //Linguagem: Java 7
 import java.io.IOException;
 import java.util.Scanner;
+ 
 /**
  * IMPORTANT: 
  *      O nome da classe deve ser "Main" para que a sua solução execute
@@ -16,15 +17,11 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        if(a>b){
-            if(a%b==0)
-                System.out.println("Sao Multiplos");
+        if((a%b==0)|(b%a==0)){
+            System.out.println("Sao Multiplos");
         }
         else
-            if(b%a==0)
-                System.out.println("Sao Multiplos");
-        else
-                System.out.println("Nao sao Multiplos");
+            System.out.println("Nao sao Multiplos");
     }
  
 }
