@@ -1,10 +1,16 @@
 //Nome: Pares, Ímpares, Positivos e Negativos
-//Resultado: Wrong answer (30%)
-//Data: 03/05/16 17:25:38
+//Resultado: Accepted
+//Data: 03/05/16 17:26:47
 //Linguagem: Java 7
 import java.io.IOException;
 import java.util.Scanner;
  
+/**
+ * IMPORTANT: 
+ *      O nome da classe deve ser "Main" para que a sua solução execute
+ *      Class name must be "Main" for your solution to execute
+ *      El nombre de la clase debe ser "Main" para que su solución ejecutar
+ */
 public class Main {
  
     public static void main(String[] args) throws IOException {
@@ -25,7 +31,7 @@ public class Main {
         }
         System.out.println(par + " valor(es) par(es)");
         System.out.println(impar + " valor(es) impar(es)");
-        System.out.println(pos + " valor(es) positivos(s)");
+        System.out.println(pos + " valor(es) positivo(s)");
         System.out.println(neg + " valor(es) negativo(s)");
     }
  
