@@ -1,10 +1,10 @@
 //Nome: Carrega ou não Carrega?
-//Resultado: Compilation error
-//Data: 06/05/16 15:07:46
+//Resultado: Wrong answer (100%)
+//Data: 06/05/16 15:08:39
 //Linguagem: Java 7
 import java.io.IOException;
 import java.util.Scanner;
-
+ 
 /**
  * IMPORTANT: 
  *      O nome da classe deve ser "Main" para que a sua solução execute
@@ -14,7 +14,6 @@ import java.util.Scanner;
 public class Main {
  
     public static void main(String[] args) throws IOException {
-    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         long a, b;
         do {
