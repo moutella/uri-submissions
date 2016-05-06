@@ -1,9 +1,10 @@
 //Nome: Carrega ou não Carrega?
-//Resultado: Wrong answer (100%)
-//Data: 06/05/16 15:08:39
+//Resultado: Runtime error
+//Data: 06/05/16 15:11:37
 //Linguagem: Java 7
 import java.io.IOException;
 import java.util.Scanner;
+
  
 /**
  * IMPORTANT: 
@@ -16,12 +17,13 @@ public class Main {
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         long a, b;
-        do {
-            a = sc.nextLong();
-            b = sc.nextLong();
-            sc.nextLine();
+        String input = sc.nextLine();
+        while (!input.contains("EOF")) {
+            a = Integer.parseInt(input.split(" ")[0]);
+            b = Integer.parseInt(input.split(" ")[1]);
             System.out.println(a ^ b);
-        } while (sc.hasNextInt());
+            input = sc.nextLine();
+        }
     }
  
 }
