@@ -1,10 +1,11 @@
 //Nome: Carrega ou não Carrega?
-//Resultado: Runtime error
-//Data: 06/05/16 15:18:19
+//Resultado: Accepted
+//Data: 06/05/16 15:34:01
 //Linguagem: Java 7
 import java.io.IOException;
-import java.util.Scanner;
-
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
  
 /**
  * IMPORTANT: 
@@ -15,14 +16,16 @@ import java.util.Scanner;
 public class Main {
  
     public static void main(String[] args) throws IOException {
-        Scanner sc = new Scanner(System.in);
+        InputStreamReader ir = new InputStreamReader(System.in);
+        BufferedReader in = new BufferedReader(ir);
         long a, b;
-        String input = sc.nextLine();
-        while (!input.contains("EOF")) {
+        String input;
+         while ( (input = in.readLine()) != null) {
+            if(input.contains("EOF"))
+                break;
             a = Long.parseLong(input.split(" ")[0]);
             b = Long.parseLong(input.split(" ")[1]);
             System.out.println(a ^ b);
-            input = sc.nextLine();
         }
     }
  
