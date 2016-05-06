@@ -1,6 +1,6 @@
 //Nome: Carrega ou não Carrega?
 //Resultado: Runtime error
-//Data: 06/05/16 15:11:37
+//Data: 06/05/16 15:18:19
 //Linguagem: Java 7
 import java.io.IOException;
 import java.util.Scanner;
@@ -19,8 +19,8 @@ public class Main {
         long a, b;
         String input = sc.nextLine();
         while (!input.contains("EOF")) {
-            a = Integer.parseInt(input.split(" ")[0]);
-            b = Integer.parseInt(input.split(" ")[1]);
+            a = Long.parseLong(input.split(" ")[0]);
+            b = Long.parseLong(input.split(" ")[1]);
             System.out.println(a ^ b);
             input = sc.nextLine();
         }
