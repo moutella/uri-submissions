@@ -1,6 +1,6 @@
 //Nome: Tempo de Jogo
-//Resultado: Wrong answer (40%)
-//Data: 11/05/16 15:08:09
+//Resultado: Accepted
+//Data: 11/05/16 15:09:55
 //Linguagem: Java 7
 import java.io.IOException;
 import java.util.Scanner;
@@ -19,7 +19,7 @@ public class Main {
         i = sc.nextInt();
         f = sc.nextInt();
         t = f-i;
-        if(t<0)
+        if(t<=0)
             t+=24;
         System.out.printf("O JOGO DUROU %d HORA(S)\n", t);
  
