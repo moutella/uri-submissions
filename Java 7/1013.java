@@ -1,6 +1,6 @@
 //Nome: O Maior
-//Resultado: Presentation error
-//Data: 11/05/16 14:40:00
+//Resultado: Accepted
+//Data: 11/05/16 14:40:31
 //Linguagem: Java 7
 import java.io.IOException;
 import java.util.Scanner;
@@ -21,7 +21,7 @@ public class Main {
         maior =(a+b+Math.abs(a-b))/2;
         b = sc.nextInt();
         maior =(maior+b+Math.abs(maior-b))/2;
-        System.out.println(maior + " eh o maior\n");   
+        System.out.println(maior + " eh o maior");   
     }
  
 }
