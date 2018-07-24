@@ -1,10 +1,11 @@
 #Nome: Troca em Vetor I
-#Resultado: Wrong answer (100%)
-#Data: 24/07/18 23:10:50
+#Resultado: Accepted
+#Data: 24/07/18 23:12:53
 #Linguagem: Python 3
 vetor = []
-for i in range(19,-1,-1):
+for i in range(0,20):
     valor = int(input())
     vetor.append(valor)
+vetor.reverse()
 for i in range(0,20):
     print("N[{}] = {}".format(i, vetor[i]))
