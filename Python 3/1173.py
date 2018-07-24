@@ -1,8 +1,11 @@
 #Nome: Preenchimento de Vetor I
-#Resultado: Accepted
-#Data: 24/07/18 23:05:02
+#Resultado: Runtime error
+#Data: 24/07/18 23:11:39
 #Linguagem: Python 3
-valor = int(input())
-for i in range(0, 10):
-    print("N[{}] = {}".format(i, valor))
-    valor *= 2
+vetor = []
+for i in range(19,-1,-1):
+    valor = int(input())
+    vetor.append(valor)
+vetor.reverse()
+for i in range(0,20):
+    print("N[{}] = {}".format(i, vetor[i]))
