@@ -1,6 +1,6 @@
 #Nome: Várias Notas Com Validação
-#Resultado: Wrong answer (80%)
-#Data: 24/07/18 20:21:33
+#Resultado: Wrong answer (60%)
+#Data: 24/07/18 20:21:58
 #Linguagem: Python 3
 novoCalc = 1
 while(novoCalc):
@@ -26,7 +26,7 @@ while(novoCalc):
     novoCalc = int(input())
     print(novoCalc)
     while(novoCalc!= 1 and novoCalc != 2):
-        print("novo calculo (1-sim 2-nao")
+        print("novo calculo (1-sim 2-nao)")
         novoCalc = int(input())
         print (novoCalc)
     if (novoCalc == 2):
