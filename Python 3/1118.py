@@ -1,6 +1,6 @@
 #Nome: Várias Notas Com Validação
-#Resultado: Wrong answer (60%)
-#Data: 24/07/18 20:21:58
+#Resultado: Wrong answer (40%)
+#Data: 24/07/18 20:22:47
 #Linguagem: Python 3
 novoCalc = 1
 while(novoCalc):
@@ -22,7 +22,7 @@ while(novoCalc):
             notaval = 0
         else:
             print("media = {:.2f}".format((nota+nota2)/2))
-    print("novo calculo (1-sim 2-nao")
+    print("novo calculo (1-sim 2-nao)")
     novoCalc = int(input())
     print(novoCalc)
     while(novoCalc!= 1 and novoCalc != 2):
