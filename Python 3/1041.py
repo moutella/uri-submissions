@@ -1,6 +1,6 @@
 #Nome: Coordenadas de um Ponto
-#Resultado: Wrong answer (40%)
-#Data: 24/07/18 17:30:39
+#Resultado: Accepted
+#Data: 24/07/18 17:31:01
 #Linguagem: Python 3
 import math
 entradas = input()
@@ -12,10 +12,10 @@ if(A==0 and B ==0):
     print("Origem")
     exit()
 if(A==0):
-    print("Eixo X")
+    print("Eixo Y")
     exit()
 if(B==0):
-    print("Eixo Y")
+    print("Eixo X")
     exit()
 if(A>0):
     if(B>0):
