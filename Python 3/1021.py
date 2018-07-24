@@ -1,6 +1,6 @@
 #Nome: Notas e Moedas
 #Resultado: Wrong answer (10%)
-#Data: 24/07/18 16:52:06
+#Data: 24/07/18 16:54:33
 #Linguagem: Python 3
 valor = float(input())
 nota100 = valor//100
@@ -26,8 +26,9 @@ valor %= 0.1
 moeda5 =valor //0.05
 valor %= 0.05
 moeda1 = valor //0.01
-moeda1+=1
 valor %= 0.01
+if(valor):
+    moeda1+=1
 print("NOTAS:")
 print("{} nota(s) de R$ 100.00".format(int(nota100)))
 print("{} nota(s) de R$ 50.00".format(int(nota50)))
