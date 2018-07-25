@@ -1,6 +1,6 @@
 #Nome: Matriz 123
-#Resultado: Wrong answer (100%)
-#Data: 25/07/18 20:30:46
+#Resultado: Wrong answer (10%)
+#Data: 25/07/18 20:31:23
 #Linguagem: Python 3
 try:
     while 1:
@@ -9,7 +9,7 @@ try:
             for j in range(0, tamanho):
                 if i==j:
                     print("1", end="")
-                elif i == 3-j:
+                elif i == tamanho-1-j:
                     print("2", end="")
                 else:
                     print("3", end="")
