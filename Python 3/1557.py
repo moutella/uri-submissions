@@ -1,6 +1,6 @@
 #Nome: Matriz Quadrada III
-#Resultado: Wrong answer (20%)
-#Data: 25/07/18 21:56:13
+#Resultado: Presentation error
+#Data: 25/07/18 21:56:35
 #Linguagem: Python 3
 import math
 try:
@@ -10,7 +10,6 @@ try:
             break
         caracteres = 1
         x = 4 ** (entrada-1)
-        print(x)
         car = entrada
         while x >= 10:
             x/=10
