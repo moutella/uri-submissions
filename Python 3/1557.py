@@ -1,6 +1,6 @@
 #Nome: Matriz Quadrada III
 #Resultado: Runtime error
-#Data: 25/07/18 20:56:13
+#Data: 25/07/18 21:38:59
 #Linguagem: Python 3
 import math
 while 1:
