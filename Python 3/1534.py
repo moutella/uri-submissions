@@ -1,6 +1,6 @@
 #Nome: Matriz 123
-#Resultado: Runtime error
-#Data: 25/07/18 20:30:24
+#Resultado: Wrong answer (100%)
+#Data: 25/07/18 20:30:46
 #Linguagem: Python 3
 try:
     while 1:
@@ -14,5 +14,5 @@ try:
                 else:
                     print("3", end="")
             print()
-except any:
+except EOFError:
     print()
