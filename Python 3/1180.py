@@ -1,6 +1,6 @@
 #Nome: Menor e Posição
-#Resultado: Presentation error
-#Data: 25/07/18 13:17:53
+#Resultado: Accepted
+#Data: 25/07/18 13:22:36
 #Linguagem: Python 3
 valor = int(input())
 valores = input().split()
@@ -11,4 +11,4 @@ for valor in valores:
         menor = int(valor)
         pos = valores.index(valor)
 print("Menor valor:", menor)
-print("Posicao: ", pos)
+print("Posicao:", pos)
