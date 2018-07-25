@@ -1,6 +1,6 @@
 #Nome: Matriz Quadrada I
 #Resultado: Presentation error
-#Data: 25/07/18 15:24:32
+#Data: 25/07/18 15:29:33
 #Linguagem: Python 3
 while 1:
     tamanho = int(input())
@@ -10,7 +10,9 @@ while 1:
     o=tamanho
     for i in range(1, tamanho):
         for j in range(1, tamanho):
-            print(min(i,j,abs(j-o), abs(i-o)), end=" ")
+            print(" ", min(i,j,abs(j-o), abs(i-o)),end="")
+            if(j<tamanho-1):
+                print(" ", end="")
         print()
     print()
 print()
