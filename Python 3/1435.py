@@ -1,6 +1,6 @@
 #Nome: Matriz Quadrada I
 #Resultado: Presentation error
-#Data: 25/07/18 16:09:06
+#Data: 25/07/18 16:10:03
 #Linguagem: Python 3
 while 1:
     tamanho = int(input())
@@ -15,4 +15,3 @@ while 1:
             string = "{:>3}".format(valor)
             print(string, end="")
         print()
-    print()
