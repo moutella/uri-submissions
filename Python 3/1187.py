@@ -1,6 +1,6 @@
 #Nome: Área Superior
-#Resultado: Wrong answer (50%)
-#Data: 25/07/18 13:44:43
+#Resultado: Accepted
+#Data: 25/07/18 13:45:16
 #Linguagem: Python 3
 op = input()
 matriz = []
@@ -17,4 +17,4 @@ for k in range(0, 6):
 if(op=="S"):
     print("{:.1f}".format(soma))
 else:
-    print("{:.1f}".format(soma/66))
+    print("{:.1f}".format(soma/30))
