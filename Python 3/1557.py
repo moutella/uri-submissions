@@ -1,12 +1,13 @@
 #Nome: Matriz Quadrada III
 #Resultado: Presentation error
-#Data: 25/07/18 21:59:44
+#Data: 25/07/18 22:03:24
 #Linguagem: Python 3
 import math
 try:
     while 1:
         entrada = int(input())
         if entrada == "0":
+            print()
             break
         caracteres = 1
         x = 4 ** (entrada-1)
