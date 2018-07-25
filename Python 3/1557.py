@@ -1,6 +1,6 @@
 #Nome: Matriz Quadrada III
 #Resultado: Presentation error
-#Data: 25/07/18 21:56:35
+#Data: 25/07/18 21:59:44
 #Linguagem: Python 3
 import math
 try:
@@ -23,4 +23,6 @@ try:
             print()
         print()
 except EOFError:
+    pass
+except:
     pass
