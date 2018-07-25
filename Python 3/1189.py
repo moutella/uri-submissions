@@ -1,6 +1,6 @@
 #Nome: Área Esquerda
-#Resultado: Wrong answer (100%)
-#Data: 25/07/18 14:01:30
+#Resultado: Accepted
+#Data: 25/07/18 14:18:46
 #Linguagem: Python 3
 op = input()
 matriz = []
@@ -11,8 +11,9 @@ for i in range(0,12):
 
 soma = 0
 for k in range(0,6):
-    for j in range(-(k-6),k-6):
-        soma+= matriz[j+6][k]
+    for j in range(k):
+        soma += matriz[k][j]
+        soma += matriz[11-k][j]
 
 if(op=="S"):
     print("{:.1f}".format(soma))
