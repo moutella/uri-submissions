@@ -1,6 +1,6 @@
 #Nome: Matriz 123
-#Resultado: Presentation error
-#Data: 25/07/18 20:33:00
+#Resultado: Accepted
+#Data: 25/07/18 20:33:30
 #Linguagem: Python 3
 try:
     while 1:
@@ -15,4 +15,4 @@ try:
                     print("3", end="")
             print()
 except EOFError:
-    print()
+    exit()
