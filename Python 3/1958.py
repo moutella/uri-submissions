@@ -1,6 +1,6 @@
 #Nome: Notação Científica
-#Resultado: Wrong answer (100%)
-#Data: 29/07/18 20:10:38
+#Resultado: Wrong answer (80%)
+#Data: 29/07/18 20:13:27
 #Linguagem: Python 3
 valor = float(input())
 contador = 0
@@ -17,4 +17,4 @@ print("{:.4f}".format(valor), end="")
 if(contador >=0):
     print("+E{:2d}".format(contador).replace(" ", "0"))
 else:
-    print("E{:2d}".format(contador).replace(" ", "0"))
+    print("E-{:2d}".format(abs(contador)).replace(" ", "0"))
