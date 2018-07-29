@@ -1,6 +1,6 @@
 #Nome: Corvo Contador
-#Resultado: Wrong answer (50%)
-#Data: 29/07/18 19:06:35
+#Resultado: Accepted
+#Data: 29/07/18 19:11:01
 #Linguagem: Python 3
 count = 0
 soma = 0
@@ -11,5 +11,19 @@ while count < 3:
         print(soma)
         soma = 0
     else:
-        x = 2 - momento.index("*")
-        soma += 2 ** x
+        if(momento == "---"):
+            soma +=0
+        elif(momento == "--*"):
+            soma+=1
+        elif (momento == "-*-"):
+            soma += 2
+        elif (momento == "-**"):
+            soma += 3
+        elif (momento == "*--"):
+            soma += 4
+        elif (momento == "*-*"):
+            soma += 5
+        elif (momento == "**-"):
+            soma += 6
+        elif (momento == "***"):
+            soma += 7
