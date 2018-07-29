@@ -1,15 +1,18 @@
 #Nome: Matriz Quadrada IV
-#Resultado: Wrong answer (30%)
-#Data: 29/07/18 16:54:16
+#Resultado: Accepted
+#Data: 29/07/18 17:19:56
 #Linguagem: Python 3
 while 1:
     try:
         x = int(input())
+        meio = x//2
+        offset = x // 3
+        offsetM = meio-offset
         for i in range(x):
             for j in range(x):
-                if i == j == ((x // 2)):
+                if i == j == (meio):
                     print(4, end="")
-                elif (x) // 3 <= i < (2 * x) // 3 and ((x) // 3) <= j < (2 * x) // 3:
+                elif j >= offset and i >= offset and j <= meio+offsetM and i <= meio+offsetM:
                     print(1, end="")
                 elif i == j:
                     print(2, end="")
