@@ -1,6 +1,6 @@
 #Nome: Notação Científica
 #Resultado: Wrong answer (100%)
-#Data: 29/07/18 20:50:10
+#Data: 29/07/18 20:50:38
 #Linguagem: Python 3
 valor = input()
 sinal = valor[0]
@@ -19,8 +19,6 @@ while not 1 <= abs(valor) < 10:
     else:
         valor /= 10
         contador += 1
-print(contador)
-print(valor)
 if(valor > 0):
     print("+{:.4f}".format(valor), end="")
 else:
