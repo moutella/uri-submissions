@@ -1,6 +1,6 @@
 #Nome: Notação Científica
-#Resultado: Time limit exceeded
-#Data: 29/07/18 20:51:13
+#Resultado: Accepted
+#Data: 29/07/18 20:55:13
 #Linguagem: Python 3
 valor = input()
 sinal = valor[0]
@@ -9,8 +9,10 @@ contador = 0
 if valor == 0:
     if(sinal=="-"):
         print("-0.0000E+00")
+        exit()
     else:
         print("+0.0000E+00")
+        exit()
 while not 1 <= abs(valor) < 10:
     if abs(valor) < 1:
         valor *= 10
