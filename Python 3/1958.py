@@ -1,6 +1,6 @@
 #Nome: Notação Científica
-#Resultado: Wrong answer (80%)
-#Data: 29/07/18 20:16:42
+#Resultado: Time limit exceeded
+#Data: 29/07/18 20:17:39
 #Linguagem: Python 3
 valor = input()
 sinal = valor[0]
@@ -22,6 +22,6 @@ if(valor>0):
     print("+", end ="")
 print("{:.4f}".format(valor), end="")
 if(contador >=0):
-    print("+E{:2d}".format(contador).replace(" ", "0"))
+    print("E+{:2d}".format(contador).replace(" ", "0"))
 else:
     print("E-{:2d}".format(abs(contador)).replace(" ", "0"))
