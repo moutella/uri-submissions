@@ -1,6 +1,6 @@
 #Nome: Matriz Quadrada IV
 #Resultado: Wrong answer (20%)
-#Data: 29/07/18 16:32:48
+#Data: 29/07/18 16:33:24
 #Linguagem: Python 3
 while 1:
     try:
@@ -19,5 +19,6 @@ while 1:
                 else:
                     print("0", end="")
             print()
+        print()
     except EOFError:
         exit()
