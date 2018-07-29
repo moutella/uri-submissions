@@ -1,6 +1,6 @@
 #Nome: Bazinga!
-#Resultado: Presentation error
-#Data: 29/07/18 17:46:20
+#Resultado: Accepted
+#Data: 29/07/18 17:46:41
 #Linguagem: Python 3
 nVal = int(input())
 for i in range(nVal):
@@ -14,4 +14,4 @@ for i in range(nVal):
     elif(diferenca ==0):
         print("Caso #{}: De novo!".format(i+1))
     else:
-        print("Caso #{}:Raj trapaceou!".format(i+1))
+        print("Caso #{}: Raj trapaceou!".format(i+1))
