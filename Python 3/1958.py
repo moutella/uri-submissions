@@ -1,8 +1,15 @@
 #Nome: Notação Científica
 #Resultado: Wrong answer (80%)
-#Data: 29/07/18 20:13:27
+#Data: 29/07/18 20:16:42
 #Linguagem: Python 3
-valor = float(input())
+valor = input()
+sinal = valor[0]
+valor = float(valor)
+if valor == 0:
+    if(sinal=="-"):
+        print("-0.0000E+00")
+    else:
+        print("+0.0000E+00")
 contador = 0
 while -1 < valor < 1 or valor < -10 or valor > 10:
     if(0 < abs(valor) < 1):
