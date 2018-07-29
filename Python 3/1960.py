@@ -1,6 +1,6 @@
 #Nome: Numeração Romana para Números de Página
-#Resultado: Presentation error
-#Data: 29/07/18 21:17:30
+#Resultado: Accepted
+#Data: 29/07/18 21:18:32
 #Linguagem: Python 3
 valor = int(input())
 x = valor // 100
@@ -40,3 +40,4 @@ elif valor > 3:
 elif valor > 0:
     for i in range(valor):
         print("I", end="")
+print()
