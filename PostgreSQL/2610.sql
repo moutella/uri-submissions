@@ -1,5 +1,5 @@
 --Nome: Valor Médio dos Produtos
---Resultado: Wrong answer (50%)
---Data: 12/05/19 17:38:01
+--Resultado: Accepted
+--Data: 12/05/19 17:41:28
 --Linguagem: PostgreSQL
-SELECT avg(price) from products;
+SELECT round(avg(price), 2) from products;
